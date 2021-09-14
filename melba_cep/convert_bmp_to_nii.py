@@ -11,7 +11,7 @@ def main():
     Convert bmp images to nii.gz images and set spacing to 0.1.
     """
     output_folder = 'images'
-    bmp_filenames = glob('/media0/franz/datasets/landmark_localization/cep/original_data/lindner2016/RawImage/images/*.bmp')
+    bmp_filenames = glob('TODO_CHANGE_PATH/RawImage/*/*.bmp')
     for bmp_filename in sorted(bmp_filenames):
         image_id = os.path.splitext(os.path.basename(bmp_filename))[0]
         print(image_id)
