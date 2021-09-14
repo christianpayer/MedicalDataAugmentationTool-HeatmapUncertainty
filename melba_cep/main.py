@@ -46,14 +46,6 @@ class MainLoop(MainLoopBase):
         self.original_image_folder = os.path.join(self.base_dataset_folder, 'original_images')
         self.output_folder = os.path.join(self.base_output_folder, output_folder_lms, f'cv{cv}' if cv >= 0 else 'all', output_folder_name, self.output_folder_timestamp())
 
-
-        # TODO remove the following
-        # self.base_folder = '/media0/franz/datasets/landmark_localization/cep/'
-        # self.image_folder = os.path.join(self.base_folder, 'original_data/lindner2016/RawImage/images/')
-        # self.output_folder = os.path.join('/media0/franz/experiments/landmark_localization/cep/', output_folder_lms, f'cv{cv}' if cv >= 0 else 'all', output_folder_name, self.output_folder_timestamp())
-
-
-
         self.network = network
         self.batch_size = 1
         self.max_iter = 40000
