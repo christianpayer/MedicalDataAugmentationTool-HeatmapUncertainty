@@ -1,7 +1,7 @@
 # Modeling Annotation Uncertainty with Gaussian Heatmaps in Landmark Localization
 
 ## Usage
-This example implements the landmark localization network of the paper **Modeling Annotation Uncertainty with Gaussian Heatmaps in Landmark Localization** which was used for the inter-observer experiments on the cephalogram dataset with additional annotations.
+This example implements the landmark localization network of the paper [**Modeling Annotation Uncertainty with Gaussian Heatmaps in Landmark Localization**](https://www.melba-journal.org/papers/2021:014.html) which was used for the inter-observer experiments on the cephalogram dataset with additional annotations.
 The implementation for the initial experiments using the hand and cephalogram dataset were originally published for the paper [Integrating Spatial Configuration into Heatmap Regression Based CNNs for Landmark Localization](https://github.com/christianpayer/MedicalDataAugmentationTool-HeatmapRegression) and can be found there.
 
 You need to have the [MedicalDataAugmentationTool](https://github.com/christianpayer/MedicalDataAugmentationTool) framework downloaded and in your `PYTHONPATH` for the scripts to work.
